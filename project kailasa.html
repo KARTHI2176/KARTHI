@@ -1,0 +1,610 @@
+<html>
+<head>
+  <style>
+   img.logo {
+     width: 120px;
+    position: relative;
+     height: auto;
+    } 
+  </style>
+<style>
+  .wrapper {
+      display: none;
+       position: fixed;
+    top: 0;   left: 0;
+       width: 100%;
+    height: 100%;
+       background: rgba(0, 0, 0, 0.5);
+     z-index: 9999;
+         justify-content: center;
+      align-items: center;
+  }
+
+  .popup {
+     width: 400px;
+      height: 400px;
+   background: #fff;
+       border: 2px solid rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+       display: none;
+  }
+
+  .form-box {
+    text-align: left; padding: 20px;
+  }
+
+  .form-box h2 {
+  font-size: 24px;
+    margin-bottom: 20px;   color: #162938;
+  }
+
+  .input-box {
+      position: relative;  margin: 10px 0;
+  }
+
+  .input-box input {
+       width: 100%;
+      height: 30px;
+    font-size: 16px;
+      border: none;
+      border-bottom: 1px solid #162938;
+    outline: none;
+  }
+
+  .input-box label {
+     position: abstract;
+    top: 0;
+      left: 20;
+    font-size: 16px;
+       color: #888;
+  transition: 0.4s;
+  }
+
+  .input-box input:focus ~ label,
+  .input-box input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+       color: #162938;
+  }
+
+  .remember-forgot
+ {
+    margin-top: 20px;
+    font-size: 14px;
+  color: #888;
+    text-align: left;
+  }
+
+  .remember-forgot labe
+l {
+    display: block;
+  }
+
+  .popup.show
+ {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<header>
+  <table border="0" width="100%" height="100px">
+   <tr>
+ <th><img class="logo" src="logo.png" alt="Logo"></th> 
+   <th> 
+        <font color="white" face="Elephant" size="1">
+<td Id = "table-cell">
+        <center><h1>Kailasa government</h1>
+        <h4>Of the people, by the people, for the people</h4> </center>  
+</td>
+     </font></th><nav>
+   <th> <a href=" "> Home</a></th>
+   <th> <a href=" "> About us</a></th>
+   <th> <a href=" "> Service</a> </th>
+   <th> <a href=" "> News & stories</a></th>
+   <th> <a href=" "> helpline</a></th>
+   <th> <a onclick="showPopup(); return false;">Login </a></th>
+</tr>
+<script>
+  function showPopup() {
+    var wrapper = document.getElementById("wrapper");
+    var popup = document.getElementById("popup");
+
+    wrapper.style.display = "flex";
+    popup.classList.add("show");
+  }
+</script>
+
+<div id="wrapper" class="wrapper">
+  <div id="popup" class="popup">
+    <div class="form-box login">
+      <h2>Login</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+      <label><input type="checkbox"> Remember me</label>    </div>
+      </form>
+    </div>
+  </div>
+</div>
+</nav>
+</table><br>
+
+<head>
+  <style>   hr {
+      height: 4px; background-color: black;}
+  </style>
+</head>
+<body>
+ <hr><br>
+</body>
+
+<head>
+  <style>
+      .search {
+    display: flex;
+ align-items: center;
+  width: 300px;
+    height: 30px;
+      
+    border-radius: 5px;
+    }
+    .search-it { 
+    flex: 1;
+   border: 25;
+     outline: none;
+background: transparent;
+    }
+    .search-bt {
+    background: transparent;
+   border: none;
+    outline: none;
+ padding: 0 5px;
+    }
+    .icon {  width: 30px;
+  height: 30px;
+    }
+     </style>
+</head>
+<body>
+  <div class="search">
+   
+  <input class="search-it" type="text" placeholder="Search...">  <button class="search-bt" type="submit">
+   <img class="icon" src="search.png" alt="Search">
+
+    </button>
+  </div>
+</body>
+<head>
+  <style>
+    body {
+      background-image: url("bgimage.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</header>
+</head>
+
+<body>
+  <marquee behavior="scroll" direction="left">
+     <img src="evening.jpg" alt="Image 2" width="300" height="200">
+    <img src="image1.jpeg" alt="Image 3" width="300" height="200">
+    <img src="image2.jpeg" alt="Image 4" width="300" height="200">
+    <img src="image3.jpeg" alt="Image 5" width="300" height="200">
+    <img src="image4.jpeg" alt="Image 6" width="300" height="200">
+    <img src="image5.jpeg" alt="Image 7" width="300" height="200">
+    <img src="image6.jpeg" alt="Image 8" width="300" height="200">
+    <img src="image7.jpeg" alt="Image 9" width="300" height="200">
+    <img src="image8.jpeg" alt="Image 10" width="300" height="200">
+    <img src="image9.jpeg" alt="Image 11" width="300" height="200">
+    <img src="image10.jpeg" alt="Image 12" width="300" height="200">
+    <img src="image11.jpeg" alt="Image 13" width="300" height="200">
+    <img src="image12.jpeg" alt="Image 14" width="300" height="200">
+    <img src="image13.jpeg" alt="Image 15" width="300" height="200">
+    <img src="image14.jpeg" alt="Image 16" width="300" height="200">
+  </marquee>
+</body>
+
+</head>
+<br>
+<br>
+
+<th>
+<style>
+.square-button {
+Width: 120px ;
+height: 120px;
+Border: shadow ; 
+padding : 0px
+margine: 0px
+
+}
+  .square-button img{
+width : 100%;
+height :100%
+Object-fit : fill ;
+}
+    </style>
+<body>
+<center>
+<button class = "square-button">
+<Img src = "most popular.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "national service scheme.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "identify docs.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "defence.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "health.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "education.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "transport department.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "banking.jpeg"  alt = "image">
+</button>
+
+<button class = "square-button">
+<Img src = "others.jpeg"  alt = "image">
+</button>
+</center>
+</body>
+</th>
+
+<head>
+<center><h1>HERE YOU CAN APPLY FOR ANY CERTIFICATES...</h1></center>
+  <style>
+    .button-container {
+      width: 400px;
+      margin: 1 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .red {
+      background-color: #e74c3c;
+    }
+
+    .green {
+      background-color: #2ecc71;
+    }
+
+    .blue {
+      background-color: #3498db;
+    }
+
+    .yellow {
+      background-color: #f1c40f;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button class="button red"><a href="#aadhar">AADHAAR CARD</a></button>
+    <button class="button green"><a href="#voterid">VOTER ID</a></button>
+    <button class="button blue"><a href="#pancard">PAN CARD</a></button>
+    <button class="button yellow"><a href="#legalheir">LEGAL HEIR CERTIFICATE</a></button>
+  </div>
+</body>
+
+<body>
+<center><h1> APPLICATION FORMS </h1></center>
+<div style="width: 500px;  margin: 0 auto; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"><br>
+    <center><h3 id="aadhar"><u>Aadhar card form</u></h3></center>
+   <center> <form action="submit-form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" required><br>
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" required>Male
+      <input type="radio" name="gender" value="female" required>Female
+      <input type="radio" name="gender" value="other" required>Other<br>
+     <label for="dob">Date of Birth:</label>
+    <input type="date"  required><br>
+       <label for="name">Father's Name:</label>
+      <input type="text" required><br>
+       <label for="name">Mother's Name:</label>
+      <input type="text" required><br>
+     <label for="address">Address:</label>
+    <textarea rows="2" required></textarea><br>
+      <label>Religion</label>
+      <select>
+      <option>Hindhu</option>
+      <option>Chrisitian</option>
+      <option>Muslim</option>
+      <option>Others</option>
+      </select>
+      <label>Community</label>
+      <select>
+      <option>MBC</option>
+      <option>BC</option>
+      <option>OC</option>
+      <option>SC/ST</option>
+      <option>CASTE NO BAR</option>
+      </select><br>
+      <label for="name">Nationality:</label>
+      <input type="text" required><br>
+      <label for="name">Enrollment Id:</label>
+      <input type="text" required><br>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" required><br>
+      <label>I accept with all terms & conditions</label>
+      <input type="checkbox"><br>
+
+
+      <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer;">
+    </form></center>
+  </div>
+
+  <div style="width: 500px;  margin: 0 auto; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"><br>
+    <center><h3 id="voterid"><u>Voter-ID form</u></h3></center>
+   <center> <form action="submit-form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" required><br>
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" required>Male
+      <input type="radio" name="gender" value="female" required>Female
+      <input type="radio" name="gender" value="other" required>Other<br>
+     <label for="dob">Date of Birth:</label>
+    <input type="date"  required><br>
+       <label for="name">Father's Name:</label>
+      <input type="text" required><br>
+       <label for="name">Mother's Name:</label>
+      <input type="text" required><br>
+     <label for="address">Address:</label>
+    <textarea rows="2" required></textarea><br>
+      <label>Religion</label>
+      <select>
+      <option>Hindhu</option>
+      <option>Chrisitian</option>
+      <option>Muslim</option>
+      <option>Others</option>
+      </select>
+      <label>Community</label>
+      <select>
+      <option>MBC</option>
+      <option>BC</option>
+      <option>OC</option>
+      <option>SC/ST</option>
+      <option>CASTE NO BAR</option>
+      </select><br>
+      <label for="name">Nationality:</label>
+      <input type="text" required><br>
+      <label for="name">pan card no:</label>
+      <input type="tel" required><br>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" required><br>
+       <label>I accept with all terms & conditions</label>
+      <input type="checkbox"><br>
+
+
+      <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer;">
+    </form></center>
+  </div>
+
+  <div style="width: 500px;  margin: 0 auto; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"><br>
+    <center><h3 id="pancard"><u>PAN Card form</u></h3></center>
+   <center> <form action="submit-form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" required><br>
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" required>Male
+      <input type="radio" name="gender" value="female" required>Female
+      <input type="radio" name="gender" value="other" required>Other<br>
+     <label for="dob">Date of Birth:</label>
+    <input type="date"  required><br>
+       <label for="name">Father's Name:</label>
+      <input type="text" required><br>
+       <label for="name">Mother's Name:</label>
+      <input type="text" required><br>
+     <label for="address">Address:</label>
+    <textarea rows="2" required></textarea><br>
+      <label>Religion</label>
+      <select>
+      <option>Hindhu</option>
+      <option>Chrisitian</option>
+      <option>Muslim</option>
+      <option>Others</option>
+      </select>
+      <label>Community</label>
+      <select>
+      <option>MBC</option>
+      <option>BC</option>
+      <option>OC</option>
+      <option>SC/ST</option>
+      <option>CASTE NO BAR</option>
+      </select><br>
+      <label for="name">Nationality:</label>
+      <input type="text" required><br>
+      <label for="name"> aadhaar card no:</label>
+      <input type="tel" required><br>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br>
+       <label>I accept with all terms & conditions</label>
+      <input type="checkbox"><br>
+
+
+      <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer;">
+    </form></center>
+  </div>
+
+  <div style="width: 500px;  margin: 0 auto; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+    <center><h3 id="legalheir"><u>Legal Heir certificate form</u></h3></center>
+   <center> <form action="submit-form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" required><br>
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" required>Male
+      <input type="radio" name="gender" value="female" required>Female
+      <input type="radio" name="gender" value="other" required>Other<br>
+     <label for="dob">Date of Birth:</label>
+    <input type="date"  required><br>
+       <label for="name">Father's Name:</label>
+      <input type="text" required><br>
+       <label for="name">Mother's Name:</label>
+      <input type="text" required><br>
+     <label for="address">Address:</label>
+    <textarea rows="2" required></textarea><br>
+      <label>Religion</label>
+      <select>
+      <option>Hindhu</option>
+      <option>Chrisitian</option>
+      <option>Muslim</option>
+      <option>Others</option>
+      </select>
+      <label>Community</label>
+      <select>
+      <option>MBC</option>
+      <option>BC</option>
+      <option>OC</option>
+      <option>SC/ST</option>
+      <option>CASTE NO BAR</option>
+      </select><br>
+      <label for="name">Nationality:</label>
+      <input type="text" required><br>
+      <label for="name"> voter Id:</label>
+      <input type="text" required><br>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br>
+       <label>I accept with all terms & conditions</label>
+      <input type="checkbox"><br>
+
+
+      <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer;">
+    </form></center>
+  </div>
+</body>
+
+  <head>
+  <style>
+    .about {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="about">
+    <h2>About Us</h2>
+    <p>This is the Official Portal of the Government of kailasa, designed, developed and hosted by the National Informatics Centre under the aegis 
+of the Ministry of Electronics & Information Technology which was headed by sir.V.R.KARTHIKEYAN, S.PREMNATH, E.DEVADHARSHAN, LOKESH RAJAN and SRIRAM.</p>
+    <h3>History</h3>
+    <p>The Portal has been developed as a Mission Mode Project (MMP) under the 
+National E-Governance Plan (NEGP) of the Government. The portal was launched in June 2023.</p>
+    <h3>Objective / Vision</h3>
+    <p>The objective behind the Portal is to provide a single window access to the information and services being provided by the Kailasa Government
+    for citizens and other stakeholders. An attempt has been made through this Portal to provide comprehensive, accurate, reliable and one stop 
+    source of information about Kailasa and its various facets.</p>
+     <h3>Portal management</h3> 
+     <p>The content of this Portal is managed centrally by the National Portal
+      Content Management Team from S.A.E.C students(Organization Chart). It is our goal to continue the enhancement and
+      enrichment of this Portal in terms of content coverage, design and technology on a regular basis.<p><br>
+<center><u><h3>Contact us</h3></u></center><br>
+</body
+<th>
+<style>
+.square-button {
+Width: 100px ;
+height: 100px;
+Border: shadow ; 
+padding : 0px
+
+}
+  .square-button img{
+width : 100%;
+height :100%
+Object-fit : fill ;
+}
+    </style>
+<body>
+<center>
+<h4>CONTACT :<a href=" "> 1234-5678</a>   | <a href=" "> 9876-5432</a> </h4>
+<button class = "square-button"><a href=" ">
+<Img src = "mail.jpeg"  alt = "image" target="blank"></a>
+</button>
+
+<button class = "square-button"> <a href="https://www.instagram.com/karthikn_offl_/" target="blank">
+<Img src = "instagram.jpeg"  alt = "image" ></a>
+</button>
+
+<button class = "square-button"> <a href="https://twitter.com/SriramRamesh007?t=AWstiIEkhTLOWv4ArXtH3A&s=09" target="blank">
+<Img src = "twitter.jpeg"  alt = "image"></a>
+</button>
+
+<button class = "square-button"> <a href="https://www.facebook.com/premnath.pullingo?mibextid=ZbWKwL" target="blank">
+<Img src = "facebook.jpeg"  alt = "image"></a>
+</button>
+
+<button class = "square-button"> <a href="https://discord.com/manikBAASHA#1302/" target="blank">
+<Img src = "discord.jpeg"  alt = "image"></a>
+</button><br><br>
+<label><a href=" ">privacy and policy</a></label>  |
+<label><a href=" ">Terms & conditions</a></label>
+
+</center>
+</body>
+</th>
+
+      
+</div>
+</body>
+   
+  </html>
